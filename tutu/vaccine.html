@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+   <title>壮壮</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="js/jquery.min.js"></script> <!-- jquery libraries -->
+    <script src="js/bootstrap.min.js"></script> <!-- bootsrap libraries -->
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+          <div class="navbar-header"><!--/ start collapsed navbar-->
+            <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#main_navbar"
+            aria-expanded="false">open</button>
+          </div><!--/ end collapsed navbar-->
+          <div 
+          class="collapse navbar-collapse" 
+          id="main_navbar"><!--/ un-collapsed navbar-->
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="tutuPhoto.html">Tutu's Photos</a></li>
+              <li class="active"><a href="vaccine.html">Tutu's Vaccine information</a></li>
+            </ul>
+          </div><!--/ un-collapsed navbar-->
+      </div>
+    </nav>
+      <div class="container">
+        <h1>I am a healthy happy dog!</h1>
+          <!-- start breadcrumb -->
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="vaccine.html">Tutu's Vaccine information</a></li>
+        </ol>
+        <!-- end breadcrumb -->
+      </div>
+  </body>
+</html>
